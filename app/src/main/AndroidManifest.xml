@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		 <activity android:name=".ActivityCheckbox" />
+        <activity android:name=".ActivityDatePicker" />
+        <activity android:name=".ActivityDatePickerDialog" />
+        <activity android:name=".ActivityListView" />
+        <activity android:name=".ActivityProgressBar" />
+        <activity android:name=".ActivityRadioButton" />
+        <activity android:name=".ActivityRating" />
+        <activity android:name=".ActivityRunnableThreadHandler" />
+        <activity android:name=".ActivityScrollView" />
+        <activity android:name=".ActivitySpinner" />
+        <activity android:name=".ActivitySwitch" />
+        <activity android:name=".ActivityTimePicker" />
+        <activity android:name=".MainButton" />
+        <activity android:name=".MainCalendarView" />
+        <activity android:name=".MainDialog" />
+        <activity android:name=".MainEditText" />
+        <activity android:name=".MainImageView" />
+        <activity android:name=".MainLinearLayout" />
+        <activity android:name=".MainRelativeLayout" />
+        <activity android:name=".MainSeekBar" />
+        <activity android:name=".MainTable" />
+        <activity android:name=".MainTextView" />
+        <activity android:name=".MainToast" />
+
+    </application>
+
+</manifest>
